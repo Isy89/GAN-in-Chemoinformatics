@@ -1,0 +1,2 @@
+how to run the Latent-Space-GAN code with the provided models:
+python latent_space_GAN_loaded_model_with_set_lr_original_no_lr_update_label_switching_linearLS_original.py X_Chemble_40_15.csv --dic_file DICTIONARY_l2n.csv --nb_epochs 3 --title test --batchsize 5000 --pret_ep 1 --G latent_space_generator_LS-GAN_DENSE_G_D_selu_5hl_17_33.hdf5 --D latent_space_discriminator_LS-GAN_DENSE_G_D_selu_5hl_17_33.hdf5 --lr0 0.00005 --lr1 0.00005 --train 1
