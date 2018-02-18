@@ -15,15 +15,5 @@ Generated fingerprints were fed in this model and the outputs were extracted fro
 
 The above formula was used to calculate the FTOXD using the means and co-variance matrices derived from the distributions obtained using the Tox21-FTOXD model.
 
-## Directories
-
-"tox21-model-for-FTOXD-evaluation": in this directory, the data, the trained tox21 model and the code used to implement it are stored. 
-
-"Chemo-GAN": in this directory, the code used to train the Chemo-GAN, the model used to calcualte the FTOXD, an example of data used during training and a trained Chemo-GAN are stored. The full dataset can be provided if needed.
-
-"calculate-FTOXD": in this directory, a small program to calculate the FTOXD distance between two datasets containing SMILES strings is provided. This program was implemented to calculate the distance between generated SMILES strings and those of the original dataset. 
-
-"Latent-Space-GAN": the code used to implement a Latent-Space-GAN, with the necessary models to run it, and the data are stored. 
-
 
 
