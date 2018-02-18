@@ -19,7 +19,7 @@ The above formula was used to calculate the FTOXD using the means and co-varianc
 
 "tox21-model-for-FTOXD-evaluation": in this directory, the data, the trained tox21 model and the code used to implement it are stored. 
 
-"Chemo-GAN": in this directory, the code used to train the Chemo-GAN, the model used to calcualte the FTOXD and a trained Chemo-GAN are stored. Data can be provided if needed.
+"Chemo-GAN": in this directory, the code used to train the Chemo-GAN, the model used to calcualte the FTOXD, an example of data used during training and a trained Chemo-GAN are stored. The full dataset can be provided if needed.
 
 "calculate-FTOXD": in this directory, a small program to calculate the FTOXD distance between two datasets containing SMILES strings is provided. This program was implemented to calculate the distance between generated SMILES strings and those of the original dataset. 
 
